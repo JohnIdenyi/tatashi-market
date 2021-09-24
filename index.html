@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tatashi</title>
+     <!-- Using FontAwesome -->
+     <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header id="home">
+        <nav>
+            <!-- logo -->
+            <a href="#home" class="logo">Tatashi Market</a>
+            <!-- menu -->
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="Login page/sign-up.html">Get started</a></li>
+                <li><a href="#services">Services</a></li>
+                <!-- <li><a href="#team">Laundry Math</a></li>
+                <li><a href="#team">Fashion Express</a></li> -->
+                <!-- <li><a href="#team">Tatashi services</a></li> -->
+                <!-- <li><a href="#contact-us">Gift cards</a></li> -->
+                <li><a href="#team">OUR COMPANY</a></li>
+                <li><a href="#team">Contact us</a></li>
+                <li><a href="#team">Log out</a></li>
+            </ul>
+            <!-- bars -->
+            <div class="icons">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-user-circle"> Account</i></a>
+                <a href="#"><i class="fas fa-shopping-cart"> Cart</i></a>
+            </div>
+            <div class="toggle">
+
+            </div>
+        </nav>
+    </header>
+
+    <div class="text-container">
+        <div class="img-container">
+            <img src="images/IMG-20210903-WA0020.jpg" alt="">
+            <p class="text">Don't stress for groceries and other services, we got you covered.</p>
+        </div>
+        <a href="Login page/sign-up.html">Get started</a>
+    </div>
+
+    <div class="box-container">
+        <div class="box box-1">
+            <p>Tatashi Services</p>
+            <img src="images/logistics2.png" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, recusandae!</p>
+            <a>Read More</a>
+        </div>
+        <div class="box box-2">
+            <p>Laundry Math</p>
+            <img src="images/laundry.png" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, recusandae!</p>
+            <a>Read More</a>
+        </div>
+        <div class="box box-3">
+            <p>Fashion Xpress</a></p>
+            <img src="images/fashion.png" alt="">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure, recusandae!</p>
+            <a>Read More</a>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="footer-container">
+            <p class="contact-us">Questions? Contact us.</p>
+            <div class="flex-items">
+                <div class="items item-1">
+                    <p><a>FAQ</a></p>
+                    <p><a>Investor Relations</a></p>
+                    <p><a>Privacy</a></p>
+                    <p><a>Speed Test</a></p>
+                </div>
+                <div class="items item-2">
+                    <p><a>Help Center</a></p>
+                    <p><a>Jobs</a></p>
+                    <p><a>Cookie Preferences</a></p>
+                    <p><a>Legal Notices</a></p>
+                </div>
+                <div class="items item-3">
+                    <p><a>Account</a></p>
+                    <p><a>Ways to watch</a></p>
+                    <p><a>Corporate Information</a></p>
+                    <p><a>Only On Netflix</a></p>
+                </div>
+                <div class="items item-4">
+                    <p><a>Media Center</a></p>
+                    <p><a>Investor Relations</a></p>
+                    <p><a>Privacy</a></p>
+                </div>
+            </div>
+        </div>
+        <p class="Copyright">Copyright &copy; by Tatashi Market 2021</p>
+    </footer>
+
+     <!-- JQuery -->
+     <script src="js/jQuery.js"></script>
+     <script>
+         $(document).ready(function() {
+             $('.toggle').click(function(){
+                 $('.toggle').toggleClass('active');
+                 $('nav').toggleClass('active');
+             })
+         })
+     </script>
+</body>
+</html>
